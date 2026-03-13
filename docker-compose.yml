@@ -1,6 +1,6 @@
 services:
   backend:
-    image: your-docker-id/234-deploylab-backend:latest
+    image: jookmaste/234-deploylab-backend:latest
     pull_policy: always
     ports:
       - "8082:8080"
