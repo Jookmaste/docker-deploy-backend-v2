@@ -8,16 +8,16 @@ public class GradeServiceImpl implements GradeService {
     @Override
     public String getGrade(double score) {
         if (score > 79.5) {
-            return "A";
+            return "Ayo";
         }
         else if (score > 74.5){
-            return "B";
+            return "Bob";
         }else if (score > 59.5){
-            return "C";
+            return "Cat";
         }else if (score > 32.5) {
-            return "D";
+            return "Dog";
         } else
-            return "F";
+            return "Fish";
 
     }
 }
